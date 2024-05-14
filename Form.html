@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>This is a Travel Form</h1>
+        <form action="form.php">
+            <input type="text" placeholder="Enter Your Name">
+            <input type="text" placeholder="Enter Your Mobile Number">
+            <br>
+            Enter Your Gender
+            <input type="radio" value="Section a" name="Section">Male
+            <input type="radio" value="Section a" name="Section">Female
+            <input type="radio" value="Section a" name="Section">Others
+            <br>
+            Enter Your Class Section
+            <label for="sectionid">
+                <input type="radio" value="Section a" name="Section" id="sectionid">Section A
+                <input type="radio" value="Section b" name="Section" id="sectionid">Section B
+                <input type="radio" value="Section c" name="Section" id="sectionid" class="red blue">Section C
+            </label>
+            <br>
+            Do You Want Food Canteen Card
+            <input type="checkbox" name="Want Food Canteen Card" id="foodcanteen" class="red">
+                    <br>
+            <textarea name="explain" id="explain" cols="30" rows="10" placeholder="Why you want to join"></textarea>
+            <br>
+            Select Your Vehicle
+            <select name="Car" id="Car">
+                <option value="no-car">Bike</option>
+                <option value="Omni">Omni</option>
+                <option value="Truck">Truck</option>
+                <option value="Auto">Auto</option>
+            </select>
+        </form>
+    </div>
+</body>
+</html>
